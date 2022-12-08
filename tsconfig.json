@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "lib": ["es5", "es6", "dom"],
+    "rootDir": "src"
+  },
+  "files": ["src/lesson2/sum.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
