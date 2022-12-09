@@ -4,21 +4,22 @@
   "description": "",
   "main": "index.js",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/radmiry/otus-lesson-2.git"
-},
+    "type": "git",
+    "url": "git+https://github.com/radmiry/otus-lesson-2.git"
+  },
   "scripts": {
     "test": "npx jest",
     "build": "webpack --mode=production --node-env=production",
     "dev": "webpack serve --open --mode development",
-    "sum": "npx ts-node src/lesson2/sum.ts",
     "lint": "eslint . --ext .ts",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "author": "radmiry",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
+    "ts-jest": "^29.0.3",
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
