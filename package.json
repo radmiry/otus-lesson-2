@@ -12,7 +12,8 @@
     "build": "webpack --mode=production --node-env=production",
     "dev": "webpack serve --open --mode development",
     "lint": "eslint . --ext .ts",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "calc": "npx ts-node-esm src/lesson2/index.ts"
   },
   "author": "radmiry",
   "license": "ISC",
