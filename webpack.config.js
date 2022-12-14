@@ -1,6 +1,4 @@
 const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-
 
 module.exports = {
     entry: {
@@ -27,6 +25,9 @@ module.exports = {
         ],
     },
     devServer: {
+        static: {
+            directory: path.join(__dirname, '/public')
+        },
         port: 8080,
         liveReload: true,
         open: true
