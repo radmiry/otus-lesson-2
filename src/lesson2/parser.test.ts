@@ -41,7 +41,6 @@ operation = ${result3.operation?.name}`, () => {
       secondValue: 24
     })
   })
-
 })
 
 describe('String parses test: negative cases', () => {
@@ -60,5 +59,4 @@ describe('String parses test: negative cases', () => {
   it(`Result of parse ${mockString3} is TypeError`, () => {
     expect(() => parser(mockString3)).toThrow(TypeError('Invalid string given'))
   })
-
 })

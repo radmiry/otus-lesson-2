@@ -1,9 +1,9 @@
 function component() {
-  const element = document.createElement('H1');
+  const element = document.createElement('H1')
 
-  element.innerHTML = 'Привет';
+  element.innerHTML = 'Привет'
 
-  return element;
+  return element
 }
 
-document.body.appendChild(component());
+document.body.appendChild(component())

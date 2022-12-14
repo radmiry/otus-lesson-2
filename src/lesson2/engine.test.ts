@@ -1,6 +1,6 @@
 import { calculate } from './engine'
 import { Parsed } from './parser'
-import { square, sum } from './mathFunctions';
+import { square, sum } from './mathFunctions'
 
 describe('Calculate tests', () => {
   const mockedParsed1: Parsed = {
