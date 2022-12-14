@@ -8,8 +8,8 @@
     "url": "git+https://github.com/radmiry/otus-lesson-2.git"
   },
   "scripts": {
-    "test": "npx jest",
-    "build": "webpack --mode=production --node-env=production",
+    "test": "jest",
+    "build": "webpack --node-env=production",
     "dev": "webpack serve --open --mode development",
     "lint": "eslint . --ext .ts",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
@@ -17,10 +17,7 @@
   },
   "author": "radmiry",
   "license": "ISC",
-  "dependencies": {
-  },
   "devDependencies": {
-    "ts-jest": "^29.0.3",
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
@@ -32,9 +29,11 @@
     "babel-loader": "^9.1.0",
     "clean-webpack-plugin": "^4.0.0",
     "eslint": "^8.29.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "jest": "^29.3.1",
     "path": "^0.12.7",
     "prettier": "^2.8.1",
+    "ts-jest": "^29.0.3",
     "ts-loader": "^9.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4",
